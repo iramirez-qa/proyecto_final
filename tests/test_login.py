@@ -31,7 +31,7 @@ def test_login_invalid_password(driver):
 
     logger.info("Intento fallido de inicio de sesion...")
 
-    error = login_page.get_error_password_message()
+    error = login_page.get_error_message()
 
     #assert "Epic sadface: Username and password do not match any user in this service" in error
     check.is_in("Epic sadface: Username and password do not match any user in this service", error, "Error Password Message")

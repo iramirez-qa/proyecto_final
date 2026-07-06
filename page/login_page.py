@@ -28,7 +28,6 @@ class LoginPage:
         self.ingresar_password(password)
         self.click_login()
 
-    def get_error_password_message(self):
+    def get_error_message(self):
         error = self.driver.find_element(*self.error_password).text
-        print(error)
-        return error
+        return error.strip()

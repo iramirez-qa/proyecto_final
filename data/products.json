@@ -1,10 +1,10 @@
 [
     {
-        "nombre": "Sauce Labs Backpack",
+        "name": "Sauce Labs Backpack",
         "precio": "$29.99"
     },
     {
-        "nombre": "Sauce Labs Bike Light",
+        "name": "Sauce Labs Bike Light",
         "precio": "$9.99"
     }
 ]

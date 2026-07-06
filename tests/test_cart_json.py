@@ -12,7 +12,7 @@ def test_cart_json(driver_logged):
     productos = read_products_json()
 
     for producto in productos:
-        inventory_page.agregar_producto_por_nombre(producto["nombre"])
+        inventory_page.agregar_producto_por_nombre(producto["name"])
 
     inventory_page.ir_al_carrito()
     productos_carrito = cart_page.obtener_productos_carrito()
