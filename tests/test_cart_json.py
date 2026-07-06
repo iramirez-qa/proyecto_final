@@ -20,9 +20,9 @@ def test_cart_json(driver_logged):
     for producto_json in productos:
         encontrado = False
         for producto_carrito in productos_carrito:
-            if (producto_carrito["nombre"] == producto_json["nombre"]) and (producto_carrito["precio"] == producto_json["precio"]):
+            if (producto_carrito["name"] == producto_json["name"]) and (producto_carrito["precio"] == producto_json["precio"]):
                 encontrado = True
                 break
 
         #assert encontrado, f"Producto incorrecto o faltante: {producto_json['nombre']}"
-        check.is_true(encontrado, f"Producto incorrecto o faltante: {producto_json['nombre']}")
+        check.is_true(encontrado, f"Producto incorrecto o faltante: {producto_json['name']}")
