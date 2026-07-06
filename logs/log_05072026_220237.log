@@ -1,0 +1,7 @@
+2026-07-05 22:02:38,619 INFO curso automation - Inicializando el driver para test_login_ok
+2026-07-05 22:02:38,619 INFO curso automation - Ingresando los datos de entrada para la prueba positiva
+2026-07-05 22:02:39,124 INFO curso automation - Iniciando sesion...
+2026-07-05 22:02:39,129 INFO curso automation - Sesion iniciada correctamente
+2026-07-05 22:02:41,869 INFO curso automation - Inicializando el driver para test_login_invalid_password
+2026-07-05 22:02:41,869 INFO curso automation - Ingresando los datos de entrada para la prueba negativa
+2026-07-05 22:02:42,334 INFO curso automation - Intento fallido de inicio de sesion...

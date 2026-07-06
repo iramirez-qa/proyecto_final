@@ -1,0 +1,5 @@
+2026-07-05 21:39:02,629 INFO curso automation - Obteniendo nombre de producto
+2026-07-05 21:39:02,648 INFO curso automation - Añadiendo producto al carrito
+2026-07-05 21:39:02,693 INFO curso automation - Verificando contador del carrito
+2026-07-05 21:39:02,707 INFO curso automation - Navegando el carrito
+2026-07-05 21:39:02,756 INFO curso automation - Comprobando que el producto añadido aparezca correctamente en el carrito 
